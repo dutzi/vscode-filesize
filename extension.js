@@ -1,6 +1,6 @@
 var vscode = require('vscode');
 var renderTableInOutputChannel = require('./view');
-var fzCalculator = require('filesize-calculator');
+var fzCalculator = require('@dutzi/filesize-calculator');
 
 var window = vscode.window;
 var workspace = vscode.workspace;

@@ -1,13 +1,13 @@
 {
-  "name": "vscode-filesize",
+  "name": "vscode-filesize-brotli",
   "displayName": "filesize",
   "description": "Show the current file size in the status bar",
-  "version": "2.1.4",
+  "version": "2.1.5",
   "icon": "icon.png",
-  "publisher": "mkxml",
+  "publisher": "dutzi",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mkxml/vscode-filesize"
+    "url": "https://github.com/dutzi/vscode-filesize"
   },
   "keywords": [
     "file",
@@ -60,6 +60,11 @@
           "type": "boolean",
           "default": true,
           "description": "Defaults to true, whether to show gzip size in detailed view or not."
+        },
+        "filesize.showBrotli": {
+          "type": "boolean",
+          "default": true,
+          "description": "Defaults to true, whether to show Brotli size in detailed view or not."
         }
       }
     }
@@ -77,6 +82,6 @@
     "@types/mocha": "^7.0.2"
   },
   "dependencies": {
-    "filesize-calculator": "^3.2.0"
+    "@dutzi/filesize-calculator": "^3.2.1"
   }
 }

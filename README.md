@@ -1,4 +1,6 @@
-# filesize package for Visual Studio Code
+# Filesize Brotli package for Visual Studio Code
+
+**Note:** This is a fork of [filesize](https://github.com/mkxml/vscode-filesize/).
 
 This package is intended for use with the [Visual Studio Code](https://code.visualstudio.com) editor and it displays the size of the focused file in the status bar of the editor.
 
@@ -15,7 +17,7 @@ Or you can just search for `filesize` in the extension search bar inside the edi
 `filesize` with the status bar component active:
 
 ![status bar component](https://cldup.com/_Y52O-UfkK.jpg)
- 
+
 ### Detailed view
 
 To open the detailed view for the current file in focus you can just click at the size in the status bar or use `Crtl`-`shift`-`'` or `Cmd`-`shift`-`'` if you are on a Mac.
